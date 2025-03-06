@@ -20,26 +20,28 @@ Deployment: Heroku / AWS
 Version Control: Git & GitHub
 
 🚀 Installation & Setup
-Clone the repository:
-git clone https://github.com/yourusername/resort-portal.git
-cd resort-portal
+--> Clone the repository:
 
-Create & activate a virtual environment:
+~git clone https://github.com/yourusername/resort-portal.git
+~cd resort-portal
 
-python -m venv venv  
-source venv/bin/activate  # (For Mac/Linux)
-venv\Scripts\activate     # (For Windows)
+--> Create & activate a virtual environment:
 
-Install dependencies:
+~python -m venv venv  
+~source venv/bin/activate  # (For Mac/Linux)
+~venv\Scripts\activate     # (For Windows)
 
-pip install -r requirements.txt
+--> Install dependencies:
 
-Apply migrations & start the server:
-python manage.py migrate  
-python manage.py runserver  
+~pip install -r requirements.txt
 
-Open the project in your browser:
-http://127.0.0.1:8000/
+--> Apply migrations & start the server:
+
+~python manage.py migrate  
+~python manage.py runserver  
+
+--> Open the project in your browser:
+~http://127.0.0.1:8000/
 
 📌 Contributing
 Feel free to contribute by submitting issues and pull requests.
